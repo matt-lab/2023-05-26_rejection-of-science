@@ -22,7 +22,9 @@ fig-cap-location: bottom
 from: markdown+emoji
 execute: 
   eval: true
-  echo: true
+  echo: false
+  include: true
+  warning: false
 ---
 
 ## My background
@@ -54,7 +56,6 @@ Attitudes change in response to psychological needs
 
 ```{r preamble}
 #| include: false
-#| warning: false
 source("scripts/generate_meta.R")
 ```
 
@@ -161,8 +162,74 @@ Sign from Freedom Rally, Melbourne, 2021
 
 # The psychological roots of anti-science attitudes
 
-<!--  CLA -->
-## Casual Layered Analysis
+## Evolution of model
+- Begin with litanies
+- 
+
+```{mermaid}
+%%| mermaid-format: svg
+%%| fig-height: 600px
+flowchart TD
+  A("<b>Litany</b>\nA fact, claim, or observation")
+  B(<b>Mental model</b>\nRepresentation of the system and its causes)
+  C(<b>Mental epistemology</b>\nPsychological processes that justify mental models)
+%%  E(Worldview, environmental/conspiracist) ---> 
+%%  F(Ideology, political, populist + values)
+%%  G(Identity expression) ---> person and social
+%%  H(Emotions) ---> phobias, worries (e.g., climate change), disgust?
+%%  J(Epistemic motivations + thinking styles/biases) ---> need for cognitive consistency (can group with ontology and strength of priors), inuitive vs analytical thinking thinking, suitability of scientific method, [maybe, cognitive biases]
+%% Mental epistemology can be psych. needs, habits/defaults
+  C ---> A ---> C
+  A <---> B <---> C
+%%  C --- E & F & G & H & J & K & I
+```
+
+
+## A working model of anti-science attitudes: litanies
+
+- Litanies are public descriptions
+- Can form a social truth
+- E.g., newspaper headlines, tweets
+- Rarely 'the full picture'
+- Litanies may not be completely anti-science (truth is not always clear)
+- Anti-science litanies may be imbued with a unfalsifiable claim or demand
+
+## Anti-climate-science litanies
+![](assets/cook_2021-climate-scepticism.webp){width=100% fig-align="center"}
+
+## Activity
+
+::: {.callout-tip icon=false}
+## Activity: What are some anti-science litanies about your own field?
+
+Brainstorm some examples of anti-science litanies about your own field.
+
+It could be broad ("climate change impacts are overstated") or specific ("The World Economic Forum proposed 15-minute cities to begin a Great Reset by climate-crazed tyrants and conspiracies").
+
+Some questions to reflect on:
+
+- Have you encountered about some misconceptions about your field (chatting with stakeholders, dinner table conversations, chats with friends)?
+- What are some common public misconceptions of your field shared on social media or the news?
+- When aren't facts enough? What findings are unpersuasive?
+- When do conversations about your science become heated?
+:::
+
+## Mental models
+
+> Definition!
+
+- why why why
+
+- Activity is to brainstorm related stuff
+- Where does information/litanies come from?
+- Who is trusted?
+
+
+
+# All notes after this slide
+
+## diff slide
+
 - Litanies: issues presented as public description/social truth
 - Social causal: issues presented as systematic &/or technical explanations
 - Worldview/discourse: issues presented as deep, complex understandings which shape the way meaning is constructed
@@ -171,8 +238,6 @@ Sign from Freedom Rally, Melbourne, 2021
 - Can be difficult to establish inconsistency (truth is not always clear)
 - Anti-science attitude may be imbued with a unfalsifiable claim
 
-## Casual Layered Analysis: Anti-climate-science litanies
-![](assets/cook_2021-climate-scepticism.webp){width=100% fig-align="center"}
 
 
 ## Casual Layered Analysis: Anti-science litanies
