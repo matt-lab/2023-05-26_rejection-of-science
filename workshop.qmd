@@ -1,0 +1,300 @@
+---
+title: "The psychological roots of the rejection (and acceptance) of science"
+author: Matthew Andreotta
+institute: Postdoctoral Fellow at CSIRO
+date: 2023/05/26
+date-format: "D MMMM YYYY"
+format:
+  revealjs:
+    template-partials: 
+        - title-slide.html
+    theme: [theme/presentation.scss]
+    logo: https://www.csiro.au/-/media/Web-team/Images/CSIRO_Logo/logo.png
+    center-title-slide: false
+    include-in-header: meta.html
+    height: 1080
+    width: 1920
+bibliography: references/references.bib
+csl: references/apa_6.csl
+citations-hover: true
+reference-location: document
+fig-cap-location: bottom
+from: markdown+emoji
+execute: 
+  eval: true
+  echo: true
+---
+
+## My background
+
+<!-- 
+To do 
+- Check slides dimension
+- Check CSIRO logo dimension
+- Programmatically make title slide
+- Upload to github pages somewhere
+- Add links in heading_meta via generate_meta.R
+- Add image of first slide
+- Host slides on website
+- Add link to slides on title page
+-->
+
+<!-- 
+List of take-home messages [not for render]
+Attitudes change in response to psychological needs
+-->
+
+<!-- Begin slides -->
+
+
+
+<!-- Acknowledgement of country + housekeeping or agenda -->
+
+<!-- Some picture/diagram of my work or interests -->
+
+```{r preamble}
+#| include: false
+#| warning: false
+source("scripts/generate_meta.R")
+```
+
+<!-- Part one - Antiscience attitudes -->
+
+# Public trust and distrust of science
+
+## Growing concerns
+
+::: {.incremental}
+> "Misinformation about climate science ... has sowed uncertainty, and impeded [the public's] recognition of risk"
+
+> "Misinformation costs lives. Without the appropriate trust and correct information, diagnostic tests go unused, immunization campaigns ... will not meet their targets, and the virus will continue to thrive."
+
+> "[COVID-19 demonstrates] the damage to public health, well-being and social cohesion that can arise from misinformation and conspiracy theories"
+
+> "In effect, disinformation can affect the full range of human rights by disrupting people's ability to make informed decisions about policies relating to, for example, the environment, crime, migration and education, among other issues of public interest and concern."
+:::
+
+:::{.notes}
+- Informational ecosystem might undermine trust in science
+- This has impacts for climate change mitigation, public health, social cohesion, and democratic processes
+:::
+
+## Growing dictionaries
+
+- **Disinformation** - False or inaccurate content designed to mislead people
+- **Misinformation** - False, inaccurate or misleading content, may be accidental
+- **Conspiracy theories** - Content that proposes a coordinated and sinister group is responsible for a nefarious event
+- **Pseudoscience** - Content that falsely resembles knowledge from a legitimate science
+- **Fake News** - Internet news that resembles legitimate news, but is fabricated or extremely inaccurate.
+- **Infodemic** - Flood of information following disease outbreak
+
+## Growing concerns reflected in language use
+
+- In books
+
+<!--  [add pic] -->
+
+---
+
+- And in Google searches
+
+<!--  [add pic] -->
+
+## Public trust of science
+
+::: {.incremental}
+- Yet, the public generally view science favourably in Australia, America, and similar countries
+- Majority of Australians trust science and scientists <!-- 3M [add pic] + pic from study -->
+- Often, scientists are trusted more than other officials <!-- pew [add pic] -->
+- This trust may reflect a combination of perceived ability, integrity, and benevolence of scientists <!-- public understanding paper -->
+:::
+
+## Public distrust of science
+
+- General trust may not translate to specific trust of scientist or science <!-- public understanding paper -->
+- Powerful people or groups might have a vested interest in sowing disinformation (e.g., climate denial) 
+- Political, economic, and informational landscape creates vulnerability and uncertainty
+- May lead to scepticism of a scientific finding or scientific method
+
+:::{.notes}
+- Internet allows mass and targetted distribution of material that fosters scientific scepticism, generally and about specific issues
+- I am not saying science has all the answers, science cannot be questioned, etc.
+:::
+
+## What are anti-science attitudes?
+
+> **Anti-science attitudes** are a relatively-enduring evaluations of an event, object, process, person, or group of people that is inconsistent with scientific consensus or methods
+
+::: {.fragment fragment-index=2}
+- Not necessarily a rejection of **all** science
+- Not all anti-science attitudes are equally harmful
+:::
+:::: {.columns}
+::: {.column width="45%"}
+
+::: {.fragment fragment-index=3}
+**Harmless anti-science?**
+
+Wikipedia's List of Common Misconceptions
+
+![](assets/wikipedia_list-of-common-misconceptions.png){width="864"}
+:::
+:::
+::: {.column width="10%"}
+:::
+::: {.column width="45%"}
+
+::: {.fragment fragment-index=4}
+
+**Harmful anti-science?**
+
+Sign from Freedom Rally, Melbourne, 2021
+
+![](assets/unsplash_a-corona-pack-of-lies.jpg){width="864"}
+:::
+:::
+::::
+:::  {.fragment fragment-index=5}
+- Despite their diversity, anti-science attitudes may be underpinned by common psychology
+:::
+
+
+# The psychological roots of anti-science attitudes
+
+<!--  CLA -->
+## Casual Layered Analysis
+- Litanies: issues presented as public description/social truth
+- Social causal: issues presented as systematic &/or technical explanations
+- Worldview/discourse: issues presented as deep, complex understandings which shape the way meaning is constructed
+
+## Casual Layered Analysis: Litanies
+- Can be difficult to establish inconsistency (truth is not always clear)
+- Anti-science attitude may be imbued with a unfalsifiable claim
+
+## Casual Layered Analysis: Anti-climate-science litanies
+![](assets/cook_2021-climate-scepticism.webp){width=100% fig-align="center"}
+
+
+## Casual Layered Analysis: Anti-science litanies
+
+::: {.callout-tip icon=false}
+## Activity: What are some anti-science litanies from your own field?
+
+Brainstorm some examples of anti-science litanies from your own field.
+
+It could be broad ("climate change impacts are overstated") or specific ("The World Economic Forum proposed 15-minute cities to begin a Great Reset by climate-crazed tyrants and conspiracies").
+
+Some questions to reflect on:
+
+- Have you encountered about some misconceptions about your field (chatting with stakeholders, dinner table conversations, chats with friends)?
+- What are some common public misconceptions of your field shared on social media or the news?
+- When aren't facts enough? What findings are unpersuasive?
+- When do conversations about your science become heated?
+:::
+
+<!-- Motivated rejection / attitudinal roots -->
+## Casual Layered Analysis: Worldview/Discourse
+
+- Will have some slides on different psychological constructs at this level: ideologies, conspiracist worldview, social identity, personal identity
+- Give an example of an anti-science
+
+::: {.callout-tip icon=false}
+## Activity: Worldview and identity motivations of anti-science
+
+Choose an anti-science litany.
+
+What worldview or identity needs underpin this claim? 
+
+Some questions to reflect on:
+- reflect on each construct
+- why do you think think they came up with this claim
+:::
+
+<!-- Epistemic needs -->
+## Casual Layered Analysis: Social Causal
+- Need for cognitively consistency
+- Preference for intuitive versus effortful thinking
+- 
+
+
+::: {.callout-tip icon=false}
+## Activity: Epistemic motivations of anti-science
+
+Choose an anti-science claim.
+
+What epistemic motivations underpin this claim? 
+
+Some questions to reflect on:
+
+:::
+
+## Attitude roots 
+- Weave the metaphor of [@hornsey_2020]
+
+<!-- Communication strategies -->
+## Changing anti-science attitudes
+- Facts alone are often insufficient [@hornsey_2020]
+- If attitudes persist to address psychological needs, then attitude may only change to meet psychological needs
+- How could we leverage psychological needs to communicate science?
+
+## Changing anti-climate-science attitudes 
+- An example from my segmentation research (sceptics, fencesitters, acceptors)
+
+## Changing anti-science attitudes
+- Show Phillip-Mueller et al. table
+
+## Summary on anti-science attitudes
+- Add summary points
+
+## Break?
+<!-- Part two - science or anti-antiscience attitudes -->
+
+# The psychological roots of science (or anti-anti-science) attitudes
+
+## Science (or anti-anti-science) attitudes
+
+- Scientific perspectives are human perspectives
+- Science attitudes are grounded in epistemic, identity, and worldview
+- Relative influence of psychological determinants may differ from anti-science attitudes
+
+## Maybe something about data / models?
+
+## The epistemic and value needs of scientists
+- Introduce values-informed mental modelling and results
+
+## The psychological needs of scientists
+
+::: {.callout-tip icon=false}
+## Activity: Psychological motivations of science attitudes
+
+Choose a science claim. This can be a claim that you believe or a claim that you are sceptical of. A divisive or emotive claim may make this activity easier.
+
+Can you determine the psychological roots that might underpin this claim? This can include epistemic characteristics, emotional needs, needs to express identity, and worldview/ideology.
+
+Some questions to reflect on:
+- Why do you believe that claim? What methods were used to generate data?
+- Do you feel any emotions when thinking of the claim? What do you feel? Where does it come from? 
+- Who produced this claim? Is it from a source you trust?
+- What would it take for you to change your mind about the claim?
+:::
+
+<!-- Thank you slide -->
+
+## References
+
+<!-- 
+Fabio comments
+- Audience may be more familiar public trust in science and less familiar with worldview/discourse content
+- 1. What do they say? 2. Why do they say that? 3. Why do they say that?
+- Four-year old 'why', 'why', 'why' 
+- Change the names of causal layered analysis
+- Be giving a plausable explanation of level 2, there are situations of level 2
+
+- Fabio's litanies:
+computer models cant be trusted
+rubbish in, rubbish out
+a modeller can get any outcome they wont from the model
+'science is based on data, anything outside data'
+ -->
+
+
