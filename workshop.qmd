@@ -27,108 +27,91 @@ execute:
   warning: false
 ---
 
-## My background
+## Housekeeping
+
+<br/>
+
+::: {.incremental}
+- Who is this man? :wave:
+- Workshop materials :page_with_curl:	
+- Break :clock9:
+- By the end of today :heavy_check_mark:
+- Today's plan :clipboard:
+:::
+
+## Today's plan
+
+<br/>
+
+::: {.incremental}
+1. Trust in science
+2. What is anti-science?
+3. The psychological roots of anti-science
+4. Shifting anti-science to science
+5. The psychological roots of science (or anti-anti-science)
+:::
 
 <!-- 
 To do 
-- Check slides dimension
-- Check CSIRO logo dimension
-- Programmatically make title slide
+- Make up some worksheet?
+- Fix svg of models
+- Ideally, add grid of different cultural @kahan_2007 and environmental examples @price2014
+- Maybe add Fabio's example
+- Check references
+- Write background
+- Write agenda
+
+- add good news everyone?
+- Add spiderman gif?
+
 - Upload to github pages somewhere
 - Add links in heading_meta via generate_meta.R
 - Add image of first slide
 - Host slides on website
 - Add link to slides on title page
+
+optional
+- programmatically make title slide
+- gif of worldviews
 -->
-
-<!-- 
-List of take-home messages [not for render]
-Attitudes change in response to psychological needs
--->
-
-<!-- Begin slides -->
-
-
-
-<!-- Acknowledgement of country + housekeeping or agenda -->
-
-<!-- Some picture/diagram of my work or interests -->
 
 ```{r preamble}
 #| include: false
 source("scripts/generate_meta.R")
 ```
 
-<!-- Part one - Antiscience attitudes -->
 
-# Public trust and distrust of science
-
-## Growing concerns
-
-::: {.incremental}
-> "Misinformation about climate science ... has sowed uncertainty, and impeded [the public's] recognition of risk"
-
-> "Misinformation costs lives. Without the appropriate trust and correct information, diagnostic tests go unused, immunization campaigns ... will not meet their targets, and the virus will continue to thrive."
-
-> "[COVID-19 demonstrates] the damage to public health, well-being and social cohesion that can arise from misinformation and conspiracy theories"
-
-> "In effect, disinformation can affect the full range of human rights by disrupting people's ability to make informed decisions about policies relating to, for example, the environment, crime, migration and education, among other issues of public interest and concern."
-:::
-
-:::{.notes}
-- Informational ecosystem might undermine trust in science
-- This has impacts for climate change mitigation, public health, social cohesion, and democratic processes
-:::
-
-## Growing dictionaries
-
-- **Disinformation** - False or inaccurate content designed to mislead people
-- **Misinformation** - False, inaccurate or misleading content, may be accidental
-- **Conspiracy theories** - Content that proposes a coordinated and sinister group is responsible for a nefarious event
-- **Pseudoscience** - Content that falsely resembles knowledge from a legitimate science
-- **Fake News** - Internet news that resembles legitimate news, but is fabricated or extremely inaccurate.
-- **Infodemic** - Flood of information following disease outbreak
-
-## Growing concerns reflected in language use
-
-- In books
-
-<!--  [add pic] -->
-
----
-
-- And in Google searches
-
-<!--  [add pic] -->
+# Trust in science
 
 ## Public trust of science
 
 ::: {.incremental}
-- Yet, the public generally view science favourably in Australia, America, and similar countries
-- Majority of Australians trust science and scientists <!-- 3M [add pic] + pic from study -->
-- Often, scientists are trusted more than other officials <!-- pew [add pic] -->
-- This trust may reflect a combination of perceived ability, integrity, and benevolence of scientists <!-- public understanding paper -->
+- Good news! Australians view science favourably
+- Generally, majority of Australians trust science and scientists [@tranter_2023;@3mstateofscience_2022]
+- Often, scientists are trusted more than other officials [@martin_2022;@pewresearchcenter_2022a;@3mstateofscience_2022]
+- Portion of the public are distrustful of science
+- Public may be vulnerable to misinformation about specific sciences
 :::
 
-## Public distrust of science
+## Growing concerns
 
-- General trust may not translate to specific trust of scientist or science <!-- public understanding paper -->
-- Powerful people or groups might have a vested interest in sowing disinformation (e.g., climate denial) 
-- Political, economic, and informational landscape creates vulnerability and uncertainty
-- May lead to scepticism of a scientific finding or scientific method
+::: {.incremental}
+> "Misinformation about climate science ... has sowed uncertainty, and impeded [the public's] recognition of risk" [@intergovernmentalpanelonclimatechange_2022, Chapter 12]
 
-:::{.notes}
-- Internet allows mass and targetted distribution of material that fosters scientific scepticism, generally and about specific issues
-- I am not saying science has all the answers, science cannot be questioned, etc.
+> "Misinformation costs lives. Without the appropriate trust and correct information, diagnostic tests go unused, immunization campaigns ... will not meet their targets, and the virus will continue to thrive." [@worldhealthorganization_2020]
+
+> "In effect, disinformation can affect the full range of human rights by disrupting people's ability to make informed decisions about policies relating to, for example, the environment, crime, migration and education, among other issues of public interest and concern." [@secretary-generaltounitednationsgeneralassembly_2022, p. 3]
 :::
+
+# What is anti-science?
 
 ## What is anti-science?
 
-> **Anti-science** are a relatively-enduring claims of an event, object, process, person, or group of people that is inconsistent with scientific consensus or methods
+> **Anti-science** are relatively-enduring claims of an event, object, process, person, or group of people that is inconsistent with scientific consensus or methods
 
 ::: {.fragment fragment-index=2}
 - Not necessarily a rejection of **all** science
-- Not all anti-science attitudes are equally harmful
+- Not all anti-science claims are equally harmful
 :::
 :::: {.columns}
 ::: {.column width="45%"}
@@ -156,17 +139,15 @@ Sign from Freedom Rally, Melbourne, 2021
 :::
 ::::
 :::  {.fragment fragment-index=5}
-- Despite their diversity, anti-science attitudes may be underpinned by common psychology
+- Despite their diversity, anti-science claims may be underpinned by the same psychology
 :::
 
-
-# The psychological roots of anti-science attitudes
 
 ## Anti-science claims
 
 - Public encounter science through the simplified claims of science, not multi-page papers
 - E.g., headlines, social media posts
-- Anti-science claims can be difficult to verify (truth is not always clear)
+- Anti-science status of claims can be difficult to verify (truth is not always clear)
 - Anti-science claims may be imbued with an unfalsifiable claim or demand
 
 ::: {.fragment fragment-index=1}
@@ -204,11 +185,12 @@ Sign from Freedom Rally, Melbourne, 2021
 
 ## Anti-science claims about climate change
 
-![](assets/cook_2021-climate-scepticism.webp){height="1000" fig-align="center"}
+![Taxonomy of claims made by science contrarians [@coan_2021]](assets/cook_2021-climate-scepticism.webp){height="1000" fig-align="center"}
+
 
 ## Activity
 
-::: {.callout-tip icon=false}
+::: {.callout-tip}
 ## Activity: What are some anti-science claims about your own field?
 
 Brainstorm some examples of anti-science claims about your own field.
@@ -217,199 +199,356 @@ It could be broad ("climate change impacts are overstated") or specific ("The Wo
 
 Some questions to reflect on:
 
-- In conversation, have you encountered misconceptions about your field (chatting with stakeholders, dinner with family)?
+- Have you encountered misconceptions about your field in conversations (chatting with stakeholders, dinner with family)?
 - What are some common misconceptions of your field shared on social media or the news?
 - When aren't facts enough to convince people?
 - When do conversations about your science become heated?
 :::
 
+# The psychological roots of anti-science
 
-## Evolution of model
-- Begin with litanies
-- 
+## The foundations of anti-science claims
+
+> **Mental models** are a cognitive representation of the elements and the causal relations (or patterns) of a world.
+
+- Mental models can be chosen to generate or explain anti-science claims
+- Mental models can be inconsistent and incomplete
+```{mermaid}
+%%| mermaid-format: svg
+%%| fig-width: 800px
+flowchart TD
+  A(<font size=6><b>Claim</b>\nFacts, observations, or predictions)
+  B(<font size=6><b>Mental model</b>\nRepresentation of the system and its causes)
+  A <---> B
+```
+
+## Identifying mental models
+
+- Mental models can be identified via verbal protocol (e.g., asking people 'why?')
+- E.g., we explored the psychological foundations of Australian's climate change views [@andreotta_2022]
+- 435 Australians ranked 30 climate change claims (derived from Twitter) according to congruence with point of view
+- For statements ranked most similar to their point of view, participants were asked for justification
+- We found three styles of sorting, reflective of 'Acceptors', 'Fencesitters', and 'Sceptics' profiles
+
+. . .
 
 ```{mermaid}
 %%| mermaid-format: svg
 %%| fig-width: 800px
 flowchart TD
-  A(<font size=6><b>Claim</b>\nA fact, description, or observation)
-  B(<font size=6><b>Mental model</b>\nRepresentation of the system and its causes)
-  C(<font size=6><b>Worldview</b>\nFundamental understandings of the world)
-%%  E(Worldview, environmental/conspiracist) +  F(Ideology, political, populist + values) + (ontology) + priors (mental models?) +
-%%  G(Identity expression) ---> person and social
-%%  H(Emotions) ---> phobias, worries (e.g., climate change), disgust?
-%%  J(Epistemic motivations + thinking styles/biases) ---> need for cognitive consistency (can group with ontology and strength of priors), inuitive vs analytical thinking thinking, suitability of scientific method, [maybe, cognitive biases]
-%% Mental epistemology can be psych. needs, habits/defaults
-  C ---> A ---> C
-  A <---> B <---> C
-%%  C --- E & F & G & H & J & K & I
+  A("<font size=6><b>Claim</b>\n&ldquo;Scientists should stop falsely claiming that climate change is a settled science.&rdquo;")
+  B(<font size=6><b>Mental model</b>\nOnly some scientists are saying this. Listen to all - they are not all singing from the same hymn book)
+  A <---> B
 ```
 
+## Your turn!
 
+::: {.callout-tip}
+## Activity: The foundations of mental models
 
-## Activity
+1. Choose one of the following claims that you generally agree with (or think of your own):
 
-::: {.callout-tip icon=false}
-## Activity: What are some anti-science litanies about your own field?
+- "Pressing coastal and marine issues, such as climate change, ... are, in many ways, governance problems."
+- "It is critical to develop an understanding of the ocean's biophysical limits"
+- "There is an urgent need for sustainable ocean management"
+- "Marine ecosystems cannot support ongoing growth without transformational change"
+- "Further demands on coasts and oceans are expected"
 
-Brainstorm some examples of anti-science litanies about your own field.
-
-It could be broad ("climate change impacts are overstated") or specific ("The World Economic Forum proposed 15-minute cities to begin a Great Reset by climate-crazed tyrants and conspiracies").
-
-Some questions to reflect on:
-
-- Have you encountered about some misconceptions about your field (chatting with stakeholders, dinner table conversations, chats with friends)?
-- What are some common public misconceptions of your field shared on social media or the news?
-- When aren't facts enough? What findings are unpersuasive?
-- When do conversations about your science become heated?
+2. Ask yourself "why do I believe this?" and write down your response.
+3. Repeat step 2 and 3 with your new response. Stop once you feel you are going around in circles, or reach something that just "is".
 :::
 
-## Mental models
+## The foundations of mental models
 
-> Definition!
+```{mermaid}
+%%| mermaid-format: svg
+%%| fig-width: 800px
+flowchart TD
+  A(<font size=6><b>Claim</b>\nFacts, observations, or predictions)
+  B(<font size=6><b>Mental model</b>\nRepresentation of the system and its causes)
+  C(<font size=6><b>Worldview</b>\nFundamental understandings of the world)
+  C ---> A ---> C
+  A <---> B <---> C
+```
 
-- why why why
+. . .
 
-- Activity is to brainstorm related stuff
-- Where does information/litanies come from?
-- Who is trusted?
+- We hold deep understandings about the nature of our world and ourselves
+- Culturally transmitted understandings shaped by individual experience [@koltko-rivera_2004]
+- These fundamental understandings shape what we say (claim) and how we think (mental model)
+- E.g., What is knowledge? What is human nature? What is 'good' and 'bad'? What is an ideal world?
 
+## Worldviews
 
+gif of 40 worldviews by [@koltko-rivera_2004]
 
-# All notes after this slide
+## The nature of truth
 
-## diff slide
+> Fundamental understandings of the world, society, and human nature
 
-- Litanies: issues presented as public description/social truth
-- Social causal: issues presented as systematic &/or technical explanations
-- Worldview/discourse: issues presented as deep, complex understandings which shape the way meaning is constructed
+- Cultural and environmental worldviews
+- Political ideology
+- Conspiracist worldviews
+- The nature of knowledge
 
-## Casual Layered Analysis: Litanies
-- Can be difficult to establish inconsistency (truth is not always clear)
-- Anti-science attitude may be imbued with a unfalsifiable claim
+## Cultural worldviews
 
+> Fundamental understandings on the structure of society
 
+- Worldviews can be classified on two dimensions [@kahan_2007; @price2014; @hornsey_2021; @douglas_1983]
+  1. **Individualism-collectivism**: From self-reliance and competition to collective identity and strong social bonds
+  2. **Social stratification**: From role- or class-based social stratification to role inclusivity 
+- Motivates rejection of views that threaten preferred way of life
 
-## Casual Layered Analysis: Anti-science litanies
+## Environmental worldviews
 
-::: {.callout-tip icon=false}
-## Activity: What are some anti-science litanies from your own field?
+> Fundamental understandings on the interaction between society and environment
 
-Brainstorm some examples of anti-science litanies from your own field.
+- Understandings of society and nature are interlinked [@price2014]
+- The individualism-collectivism dimension is particularly relevant [@price2014; @kahan_2007]
 
-It could be broad ("climate change impacts are overstated") or specific ("The World Economic Forum proposed 15-minute cities to begin a Great Reset by climate-crazed tyrants and conspiracies").
+. . .
 
-Some questions to reflect on:
+- Climate change Acceptors and Sceptics differ in their worldviews of nature [@andreotta_2022; @price2014]
+- Shapes mental models of climate change
+- Shapes aversion to proposed mitigation [@campbell_2014] 
 
-- Have you encountered about some misconceptions about your field (chatting with stakeholders, dinner table conversations, chats with friends)?
-- What are some common public misconceptions of your field shared on social media or the news?
-- When aren't facts enough? What findings are unpersuasive?
-- When do conversations about your science become heated?
+## Political ideology
+
+- The individualism-collectivist dimension of worldviews reflects Western left-right ideology
+- American conservative think tanks and media disseminate climate change scpeticism [@jacques_2008; @mccright_2010]
+- In America and Australia, political affiliation and ideology are associated with climate change scepticism [@andreotta_2022;@hornsey2018]
+- Not true for all nations [@hornsey2018]
+
+## Conspiracist worldviews
+
+> Powerful, malevolent groups coordinate in secret to conduct deceive the public
+
+- Routinely related to antivaccination views [@lewandowsky2013a; @hornsey_2018]
+- Suspicion of 'unnatural' produce and technology, like genetically modified food, labgrown meat, and 5G safety [@lewandowsky2013a; @jolley_2020; @hornsey_2020]
+- Mixed evidence that conspiracist worldviews relate to climate change scepticisms [@andreotta_2022;@lewandowsky2020;@hornsey2018]
+
+. . .
+
+- Climate change conspiracies are used to undermine scientific consensus [@lewandowsky2020;@andreotta_2022]
+- Two paths:
+  1. Conspiracist worldview
+  2. Worldviews and ideology
+
+## The nature of knowledge
+
+> What is knowledge and where does it come from?
+
+- How can we know?
+- Who are trusted sources of knowledge?
+- Scientists might disagree about particularly methods or statistics
+- Indigenous knowledge systems
+- Science can legitimise existing power structures, have vested interests, etc.
+
+. . .
+
+- Scientific populism casts scientists and their methods as nefarious elite [@mede_2020;@mede_2022]
+
+## Stop and reflect
+
+<!-- chart -->
+
+::: {.callout-tip}
+## Activity: The truth underpinning anti-science 
+
+Reflect on your chosen anti-science claim.
+
+1. How might worldviews and ideology support your chosen anti-science claim?
+2. What is knowledge to someone who might support your chosen anti-science claim?
 :::
 
-<!-- Motivated rejection / attitudinal roots -->
-## Casual Layered Analysis: Worldview/Discourse
 
-- Will have some slides on different psychological constructs at this level: ideologies, conspiracist worldview, social identity, personal identity
-- Give an example of an anti-science
+## The nature of goodness
 
-::: {.callout-tip icon=false}
-## Activity: Worldview and identity motivations of anti-science
+> Fundamental understandings of what is right and wrong
 
-Choose an anti-science litany.
+- Moral understanding (e.g., preventing harm) and justice
+- E.g., Vaccination 'rejectors' value sanctity and liberty more than others [@rossen_2019]
+- What is harm and who can be harmed? The environment? The economy? Future generations? Technological growth?
+- Values [@schwartz2012]
+  1. Openness to change (self-direction versus tradition and conformity)
+  2. Self-transcendence (benevolence versus achievement and power)
+- Worldviews and ideologies are often imbued with sense of right versus wrong
 
-What worldview or identity needs underpin this claim? 
+## Stop and reflect
 
-Some questions to reflect on:
-- reflect on each construct
-- why do you think think they came up with this claim
+<!-- -->
+
+::: {.callout-tip}
+## Activity: The goodness underpinning anti-science 
+
+Reflect on someone who might endorse your chosen anti-science claim.
+
+1. To this person, could adherence to your chosen anti-science claim add good (or reduce bad) in the world?
+2. To this person, could opposition to your chosen anti-science claim add bad (or reduce good) in the world?
 :::
 
-<!-- Epistemic needs -->
-## Casual Layered Analysis: Social Causal
-- Need for cognitively consistency
-- Preference for intuitive versus effortful thinking
-- 
+## The motives underpinning anti-science
 
+- Anti-science underpinned by psychological motives and tendencies [@douglas_2017; @hornsey_2020]
+- Psychological motives can shape the logic between layers
 
-::: {.callout-tip icon=false}
-## Activity: Epistemic motivations of anti-science
+- Epistemic motives
+  * Need for cognitive consistency
+  * Uncertainty intolerance
+  * Proportionality bias
 
-Choose an anti-science claim.
+. . .
 
-What epistemic motivations underpin this claim? 
+- Material motives
+  * Vested interests
 
-Some questions to reflect on:
+. . .
 
+- Existential motives
+  * Phobias
+
+. . . 
+
+- Social motives
+  * Personal identity expression (distinctiveness)
+  * Social identity expression (internalise and exemplify attitudes and values of groups)
+
+# Shifting anti-science to science
+
+## Changing anti-science beliefs
+
+:::: {.columns}
+
+::: {.column width="45%"}
+::: {.fragment fragment-index=1}
+**What we've discussed**
+1. Belief in anti-science claims may reflect deep understandings of the world
+2. Belief in anti-science claims may satisfy psychological motives
+:::
 :::
 
-## Attitude roots 
-- Weave the metaphor of [@hornsey_2020]
-
-<!-- Communication strategies -->
-## Changing anti-science attitudes
-- Facts alone are often insufficient [@hornsey_2020]
-- If attitudes persist to address psychological needs, then attitude may only change to meet psychological needs
-- How could we leverage psychological needs to communicate science?
-
-## Changing anti-climate-science attitudes 
-- An example from my segmentation research (sceptics, fencesitters, acceptors)
-
-## Changing anti-science attitudes
-- Show Phillip-Mueller et al. table
-
-## Summary on anti-science attitudes
-- Add summary points
-
-## Break?
-<!-- Part two - science or anti-antiscience attitudes -->
-
-# The psychological roots of science (or anti-anti-science) attitudes
-
-## Science (or anti-anti-science) attitudes
-
-- Scientific perspectives are human perspectives
-- Science attitudes are grounded in epistemic, identity, and worldview
-- Relative influence of psychological determinants may differ from anti-science attitudes
-
-## Maybe something about data / models?
-
-## The epistemic and value needs of scientists
-- Introduce values-informed mental modelling and results
-
-## The psychological needs of scientists
-
-::: {.callout-tip icon=false}
-## Activity: Psychological motivations of science attitudes
-
-Choose a science claim. This can be a claim that you believe or a claim that you are sceptical of. A divisive or emotive claim may make this activity easier.
-
-Can you determine the psychological roots that might underpin this claim? This can include epistemic characteristics, emotional needs, needs to express identity, and worldview/ideology.
-
-Some questions to reflect on:
-- Why do you believe that claim? What methods were used to generate data?
-- Do you feel any emotions when thinking of the claim? What do you feel? Where does it come from? 
-- Who produced this claim? Is it from a source you trust?
-- What would it take for you to change your mind about the claim?
+::: {.column width="10%"}
 :::
 
-<!-- Thank you slide -->
+::: {.column width="45%"}
+::: {.fragment fragment-index=2}
+**Implications for science communicators**
+1. Messages compatible with audience worldview are more likely to be accepted
+2. Messages that emphasise how science can satisfy psychological motives are more likely to be accepted
+:::
+:::
+::::
+
+::: {.fragment fragment-index=3}
+- How can we frame science messages to be compatible with alternative worldviews?
+- How can we leverage psychological needs to communicate science?
+:::
+
+## Climate science communication
+
+- Australian's climate change views fall into one of three profiles: Acceptors, Fencesitters, and Sceptics [@andreotta_2022]
+- Each profile contained some misunderstanding of science
+
+:::: {.columns}
+
+::: {.column width="30%"}
+::: {.fragment fragment-index=2}
+**Profile:** Acceptors
+
+**The anti-science:** Overconfidence in the effectiveness of 'green' climate change mitigation (e.g., recycling)
+
+**The foundation:** Concern for environmental harms, worldviews and ideology encourages belief in anthropogenic climate change
+
+**The recommendation:** Leverage need for cognitive consistency 
+
+:::
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="30%"}
+::: {.fragment fragment-index=3}
+**Profile:** Fencesitters
+
+**The anti-science:** On average, do not perceive climate change as harmful.
+
+**The foundation:** Some harbour conspiracist worldviews, some are disengaged.
+
+**The recommendation:** Emphasise threat of disinformation, encourage critical reflection.
+:::
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="30%"}
+::: {.fragment fragment-index=4}
+**Profile:** Sceptics
+
+**The anti-science:** Do not perceive climate change as harmful or anthropogenic.
+
+**The foundation:** Conservative ideology, solution aversion.
+
+**The recommendation:** Leverage social needs by using messages from conservative sources or stories from former climate change deniers. Leverage need for cognitive consistency to emphasise belief in empiricism and science.
+:::
+:::
+
+::::
+
+## Changing anti-science views
+
+::: {.callout-tip}
+## Activity: Brainstorming communication strategies  
+
+What communication might be effective in changing your chosen anti-science claim?
+
+Consider:
+- Can you make a message compatible with the recipient's worldview?
+- Can you emphasise how your message might satisfy the recipient's psychological needs?
+:::
+
+# The psychological roots of science (or anti-anti-science)
+
+## The psychological roots of science (or anti-anti science)
+
+<!-- Flowchart? -->
+
+- Scientific claims follow the same structure, needs and assumptions may differ
+- E.g., epistemic needs and understandings drive scientists to explain observations
+
+::: {.callout-tip}
+## Activity: Your psychological roots
+
+Reflect on the science claim you chose in an earlier activity.
+
+1. Can you identify the worldviews that might shape this claim?
+2. Can you identify the psychological needs that might drive belief in this claim?
+
+Consider:
+- What would it take to change your mind?
+- Do you feel emotionally connected to this statement?
+- Do you feel the world would be worse off if nobody believed this claim?
+- If you no longer believed this claim, would you feel like a different person?
+- Would your family, friends, and colleagues agree with this statement? Would they think less of you if you no longer agreed with this claim?
+:::
+
+## Summary
+
+- Scientists are often trusted authorities, giving us unique power to combat disinformation/misinformation
+- Anti-science (and science) belief can be underpinned by fundamental understandings and deep assumptions about the world
+- Fundamental understandings privilege some explanations over others to satisfy psychological motives
+- Psychological motives can also encourage belief change
+- Communication can be more effective when tailored to satisfy psychological motives and when messages are compatible with worldviews
+
+## Thank you
+
+
+## Some useful readings
+
+- @hornsey_2020 reviews the psychological motivations for anti-science beliefs
+- @philipp-muller_2022 use the persuasion literature to recommend strategies for counteracting anti-science views
+- @lewandowsky2020a and @lewandowsky_2020 provide short primers for debunking misinformation and conspiracy theories, respectively
 
 ## References
-
-<!-- 
-Fabio comments
-- Audience may be more familiar public trust in science and less familiar with worldview/discourse content
-- 1. What do they say? 2. Why do they say that? 3. Why do they say that?
-- Four-year old 'why', 'why', 'why' 
-- Change the names of causal layered analysis
-- Be giving a plausable explanation of level 2, there are situations of level 2
-
-- Fabio's litanies:
-computer models cant be trusted
-rubbish in, rubbish out
-a modeller can get any outcome they wont from the model
-'science is based on data, anything outside data'
- -->
-
-
