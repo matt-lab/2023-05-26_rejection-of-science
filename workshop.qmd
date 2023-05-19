@@ -56,9 +56,9 @@ execute:
 <!-- 
 To do 
 - Make up some worksheet?
-- Ideally, add grid of different cultural @kahan_2007 and environmental examples @price2014
+- Ideally, add grid of different d environmental examples @price2014
 - Maybe add Fabio's example
-- Check references
+- Check references [in-text names, capitalisation at the eor]
 - Write background
 - Write agenda
 
@@ -304,32 +304,28 @@ gif of 40 worldviews by [@koltko-rivera_2004]
 . . .
 
 ```{dot}
-digraph  grid
+//| fig-width: 12
+digraph  worldview_cultural
 {
-  graph [ranksep="0.4", nodesep="3"];
+  graph [pad = 0.5 ranksep="0.4", nodesep="3"];
 	fontname="Helvetica,Arial,sans-serif"
 	node [fontname="Helvetica,Arial,sans-serif" fontsize=40]
 	edge [fontname="Helvetica,Arial,sans-serif" penwidth=4]
 	layout=dot
 	node [shape=plaintext]
-	// arbitrary path on rigid grid
+  edge [weight=1000]
+	// Labels
   Individualism[label=<<B>Individualism</B><br/>&ldquo;Free markets&mdash;not government<br/>programs&mdash;are the best<br/>way to supply people with the<br/>things they need&rdquo;>]
-  Communitarian[label=<<B>Communitarian</B><br/>&ldquo;It's society's responsibility<br/>to make sure everyone's<br/>basic needs are met.&rdquo;>]
+  Communitarian[label=<<B>Communitarian</B><br/>&ldquo;It's society's responsibility<br/>to make sure everyone's<br/>basic needs are met&rdquo;>]
   Hierarchist[label=<<B>Hierarchist</B><br/>&ldquo;We have gone too far in pushing equal rights in this country&rdquo;>]
   Egalitarian[label=<<B>Egalitarian</B><br/>&ldquo;Discrimination against minorities<br/>is still a very serious problem in our society&rdquo;>]
   X[shape=point]
 
-	edge [weight=1000]
-
-	// uncomment to hide the grid
-	//edge [style=invis]
   Hierarchist -> X  [dir="back"]
   X -> Egalitarian
 	rank=same {X -> Communitarian}
   rank=same {Individualism -> X [dir="back"]}
 }
-
-
 ```
 
 ## Environmental worldviews
@@ -338,6 +334,30 @@ digraph  grid
 
 - Understandings of society and nature are interlinked [@price2014]
 - The Individualism-Communitarian dimension is particularly relevant [@price2014; @kahan_2007]
+
+. . .
+
+```{dot}
+//| fig-width: 17
+digraph  worldview_environment
+{
+  graph [pad=0.6 nodesep="3" size="20,7!"];
+	fontname="Helvetica,Arial,sans-serif"
+	node [fontname="Helvetica,Arial,sans-serif" fontsize=40]
+	edge [fontname="Helvetica,Arial,sans-serif" penwidth=4]
+	layout=dot
+	node [shape=plaintext]
+  edge [weight=1000]
+	// Labels
+  Individualism[label=<<B>Individualism</B><br/>&ldquo;Ultimately, there’s nothing individuals<br/>can do to manage or change<br/>the natural environment&rdquo;>]
+  Communitarian[label=<<B>Communitarian</B><br/>When pushed beyond the limits<br/>identified by experts the natural<br/>environment will not recover&rdquo;>]
+  X[shape=point]
+
+
+	rank=same {X -> Communitarian}
+  rank=same {Individualism -> X [dir="back"]}
+}
+```
 
 . . .
 
