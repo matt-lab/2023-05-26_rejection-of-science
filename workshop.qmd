@@ -56,7 +56,6 @@ execute:
 <!-- 
 To do 
 - Make up some worksheet?
-- Fix svg of models
 - Ideally, add grid of different cultural @kahan_2007 and environmental examples @price2014
 - Maybe add Fabio's example
 - Check references
@@ -236,7 +235,7 @@ flowchart TD
 
 ```{mermaid}
 %%| mermaid-format: svg
-%%| fig-width: 800px
+%%| fig-width: 1300px
 flowchart TD
   A("<font size=6><b>Claim</b>\n&ldquo;Scientists should stop falsely claiming that climate change is a settled science.&rdquo;")
   B(<font size=6><b>Mental model</b>\nOnly some scientists are saying this. Listen to all - they are not all singing from the same hymn book)
@@ -298,16 +297,47 @@ gif of 40 worldviews by [@koltko-rivera_2004]
 > Fundamental understandings on the structure of society
 
 - Worldviews can be classified on two dimensions [@kahan_2007; @price2014; @hornsey_2021; @douglas_1983]
-  1. **Individualism-collectivism**: From self-reliance and competition to collective identity and strong social bonds
-  2. **Social stratification**: From role- or class-based social stratification to role inclusivity 
+  1. **Individualism-Communitarian**: From self-reliance and competition to collective identity and strong social bonds
+  2. **Hierarchist-Egalitarian**: From role- or class-based social stratification to role inclusivity 
 - Motivates rejection of views that threaten preferred way of life
+
+. . .
+
+```{dot}
+digraph  grid
+{
+  graph [ranksep="0.4", nodesep="3"];
+	fontname="Helvetica,Arial,sans-serif"
+	node [fontname="Helvetica,Arial,sans-serif" fontsize=40]
+	edge [fontname="Helvetica,Arial,sans-serif" penwidth=4]
+	layout=dot
+	node [shape=plaintext]
+	// arbitrary path on rigid grid
+  Individualism[label=<<B>Individualism</B><br/>&ldquo;Free markets&mdash;not government<br/>programs&mdash;are the best<br/>way to supply people with the<br/>things they need&rdquo;>]
+  Communitarian[label=<<B>Communitarian</B><br/>&ldquo;It's society's responsibility<br/>to make sure everyone's<br/>basic needs are met.&rdquo;>]
+  Hierarchist[label=<<B>Hierarchist</B><br/>&ldquo;We have gone too far in pushing equal rights in this country&rdquo;>]
+  Egalitarian[label=<<B>Egalitarian</B><br/>&ldquo;Discrimination against minorities<br/>is still a very serious problem in our society&rdquo;>]
+  X[shape=point]
+
+	edge [weight=1000]
+
+	// uncomment to hide the grid
+	//edge [style=invis]
+  Hierarchist -> X  [dir="back"]
+  X -> Egalitarian
+	rank=same {X -> Communitarian}
+  rank=same {Individualism -> X [dir="back"]}
+}
+
+
+```
 
 ## Environmental worldviews
 
 > Fundamental understandings on the interaction between society and environment
 
 - Understandings of society and nature are interlinked [@price2014]
-- The individualism-collectivism dimension is particularly relevant [@price2014; @kahan_2007]
+- The Individualism-Communitarian dimension is particularly relevant [@price2014; @kahan_2007]
 
 . . .
 
@@ -317,7 +347,7 @@ gif of 40 worldviews by [@koltko-rivera_2004]
 
 ## Political ideology
 
-- The individualism-collectivist dimension of worldviews reflects Western left-right ideology
+- The Individualism-Communitarian dimension of worldviews reflects Western left-right ideology
 - American conservative think tanks and media disseminate climate change scpeticism [@jacques_2008; @mccright_2010]
 - In America and Australia, political affiliation and ideology are associated with climate change scepticism [@andreotta_2022;@hornsey2018]
 - Not true for all nations [@hornsey2018]
