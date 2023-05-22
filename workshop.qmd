@@ -55,13 +55,11 @@ execute:
 
 <!-- 
 To do 
-- Add additional incremental flowcharts
 - Check references [in-text names, capitalisation at the eor]
 - Change language to "psych needs"
 - Write background
 - Write agenda
 
-- Make up some worksheet?
 
 - add good news everyone?
 - Add spiderman gif?
@@ -190,12 +188,12 @@ Sign from Freedom Rally, Melbourne, 2021
 ![Taxonomy of claims made by science contrarians [@coan_2021]](assets/cook_2021-climate-scepticism.webp){height="1000" fig-align="center"}
 
 
-## Activity
+## What are some anti-science claims about your own field?
 
 ::: {.callout-tip}
 ## Activity: What are some anti-science claims about your own field?
 
-Brainstorm some examples of anti-science claims about your own field.
+Brainstorm some examples of anti-science claims about your own field, in section 1.1 of the handout.
 
 It could be broad ("climate change impacts are overstated") or specific ("The World Economic Forum proposed 15-minute cities to begin a Great Reset by climate-crazed tyrants and conspiracies").
 
@@ -252,12 +250,12 @@ flowchart TD
 
 - "Pressing coastal and marine issues, such as climate change, ... are, in many ways, governance problems."
 - "It is critical to develop an understanding of the ocean's biophysical limits"
-- "There is an urgent need for sustainable ocean management"
 - "Marine ecosystems cannot support ongoing growth without transformational change"
-- "Further demands on coasts and oceans are expected"
 
-2. Ask yourself "why do I believe this?" and write down your response.
-3. Repeat step 2 and 3 with your new response. Stop once you feel you are going around in circles, or reach something that just "is".
+Write down your chosen claim in section 2.1 of the handout.
+
+2. Ask yourself "why do I believe this?" and write down your response in section 2.2 of the handout.
+3. Repeat step 2 and 3 with your new response in section 2.2 of the handout. Stop once you feel you are going around in circles, or reach something that just "is".
 :::
 
 ## The foundations of mental models
@@ -277,7 +275,7 @@ flowchart TD
 
 - Fundamental understandings shape what we say (claim) and how we think (mental model)
 - Culturally transmitted understandings shaped by individual experience [@koltko-rivera_2004]
-- E.g., What is knowledge? What is human nature? What is 'good' and 'bad'? What is an ideal world?
+- E.g., What is human nature? What is knowledge? What is 'right' and 'wrong'? What is an ideal world?
 
 ## The nature of truth
 
@@ -400,29 +398,6 @@ digraph  worldview_environment
 - Do scientists have the right to make their own research agendas and curtail problematic fields?
 - Who should scientists be accountable to?
 
-## The truth underpinning anti-science
-
-```{mermaid}
-%%| mermaid-format: svg
-%%| fig-width: 1900px
-flowchart LR
-  A(<p><b>Claim</b>\nFacts, observations, or predictions</p>)
-  B(<p><b>Mental model</b>\nRepresentation of the system and its causes</p>)
-  C("<p><b>Worldviews</b>\nFundamental understandings of the world<ul><li>What is true (society, culture, environment)?</li><li>What is truth (how is it made, who makes it?)</li></ul></p>")
-  C ---> A ---> C
-  A <---> B <---> C
-```
-
-::: {.callout-tip}
-## Activity: The truth underpinning anti-science 
-
-Reflect on your chosen anti-science claim.
-
-1. How might worldviews and ideology support your chosen anti-science claim?
-2. What is knowledge to someone who might support your chosen anti-science claim?
-:::
-
-
 ## The nature of goodness
 
 > Fundamental understandings of what is right and wrong
@@ -435,7 +410,7 @@ Reflect on your chosen anti-science claim.
   2. Self-transcendence (benevolence versus achievement and power)
 - Worldviews and ideologies are often imbued with sense of right versus wrong
 
-## The goodness underpinning anti-science
+## The underpinnings of anti-science
 
 ```{mermaid}
 %%| mermaid-format: svg
@@ -443,18 +418,20 @@ Reflect on your chosen anti-science claim.
 flowchart LR
   A(<p><b>Claim</b>\nFacts, observations, or predictions</p>)
   B(<p><b>Mental model</b>\nRepresentation of the system and its causes</p>)
-  C("<p><b>Worldviews</b>\nFundamental understandings of the world<ul><li>What is true about people, culture, & environment)?</li><li>What is truth, how is it made, & who makes it?)</li><li>What is good & how do we achieve it?</li></ul></p>")
+  C("<p><b>Worldviews</b>\nFundamental understandings of the world<ul><li>What is true about people, culture, & environment)?</li><li>What is truth, how is it made, & who makes it?)</li><li>What is good & how do we achieve it?</li><br/></ul></p>")
   C ---> A ---> C
   A <---> B <---> C
 ```
 
 ::: {.callout-tip}
-## Activity: The goodness underpinning anti-science 
+## Activity: The underpinnings of anti-science 
 
-Reflect on someone who might endorse your chosen anti-science claim.
+Choose an anti-science claim from section 1.1 of your handout. Reflect on the worldviews of someone who might endorse your chosen anti-science claim. Note down these fundamental understandings in section 1.3. Some prompts:
 
-1. To this person, could adherence to your chosen anti-science claim add good (or reduce bad) in the world?
-2. To this person, could opposition to your chosen anti-science claim add bad (or reduce good) in the world?
+1. Is this person likely to see the world in a particular way?
+2. Is this person likely to see knowledge in a particular way?
+3. To this person, could adherence to your chosen anti-science claim add good (or reduce bad) in the world?
+4. To this person, could opposition to your chosen anti-science claim add bad (or reduce good) in the world?
 :::
 
 ## The needs underpinning anti-science
@@ -477,7 +454,7 @@ Reflect on someone who might endorse your chosen anti-science claim.
   * Personal identity expression (distinctiveness)
   * Social identity expression (internalise and exemplify attitudes and values of groups)
 
-  . . .
+. . .
 
 - Material needs (e.g., vested interests)
 
@@ -486,12 +463,13 @@ Reflect on someone who might endorse your chosen anti-science claim.
 ```{mermaid}
 %%| mermaid-format: svg
 %%| fig-height: 1000px
+%%| fig-width: 1900px
 flowchart LR
   subgraph world["<b>Psychological World</b>"]
     direction TB
     A(<p><b>Claim</b>\nFacts, observations, or predictions</p>)
     B(<p><b>Mental model</b>\nRepresentation of the system and its causes</p>)
-    C("<p><b>Worldviews</b>\nFundamental understandings of the world<ul><li>What is true about people, culture, & environment)?</li><li>What is truth, how is it made, & who makes it?)</li><li>What is good & how do we achieve it?</li></ul></p>")
+    C("<p><b>Worldviews</b>\nFundamental understandings of the world<ul><li>What is true about people, culture, & environment)?</li><li>What is truth, how is it made, & who makes it?)</li><li>What is good & how do we achieve it?</li><br/></ul></p>")
     C ---> A ---> C
     A <---> B <---> C
   end
@@ -596,9 +574,10 @@ flowchart LR
 ::: {.callout-tip}
 ## Activity: Brainstorming communication strategies  
 
-What communication might be effective in changing your chosen anti-science claim?
+What communication might be effective in changing your chosen anti-science claim? Write down your thoughts in section 1.5.
 
 Consider:
+
 - Can you make a message compatible with the recipient's worldview?
 - Can you emphasise how your message might satisfy the recipient's psychological needs?
 :::
@@ -637,12 +616,13 @@ flowchart LR
 ::: {.callout-tip}
 ## Activity: Your psychological roots
 
-Reflect on the science claim you chose in an earlier activity.
+Reflect on the science claim you chose in an earlier activity, noting your thoughts in sections 2.3 to 2.5
 
 1. Can you identify the worldviews that might shape this claim?
 2. Can you identify the psychological needs that might drive belief in this claim?
 
 Consider:
+
 - What would it take to change your mind?
 - Do you feel emotionally connected to this statement?
 - Do you feel the world would be worse off if nobody believed this claim?
