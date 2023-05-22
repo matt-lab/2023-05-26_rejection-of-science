@@ -186,7 +186,7 @@ Sign from Freedom Rally, Melbourne, 2021
 
 ## Anti-science claims about climate change
 
-![Taxonomy of claims made by science contrarians [@coan_2021]](assets/cook_2021-climate-scepticism.webp){height="1000" fig-align="center"}
+![Taxonomy of claims made by science contrarians [@coan_2021]](assets/cook_2021-climate-scepticism.webp){height="800" fig-align="center"}
 
 
 ## What are some anti-science claims about your own field?
