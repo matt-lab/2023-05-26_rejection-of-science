@@ -273,6 +273,7 @@ flowchart TD
 
 . . .
 
+- Based on Causal Layered Analysis [@inayatullah2004]
 - Fundamental understandings shape what we say (claim) and how we think (mental model)
 - Culturally transmitted understandings shaped by individual experience [@koltko-rivera_2004]
 - E.g., What is human nature? What is knowledge? What is 'right' and 'wrong'? What is an ideal world?
