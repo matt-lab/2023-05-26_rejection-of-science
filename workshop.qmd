@@ -55,8 +55,7 @@ execute:
 
 <!-- 
 To do 
-- Check references [in-text names, capitalisation at the eor]
-- Change language to "psych needs"
+- Check references [capitalisation at the eor]
 - Write background
 - Write agenda
 
@@ -427,12 +426,11 @@ flowchart LR
 ::: {.callout-tip}
 ## Activity: The underpinnings of anti-science 
 
-Choose an anti-science claim from section 1.1 of your handout. Reflect on the worldviews of someone who might endorse your chosen anti-science claim. Note down these fundamental understandings in section 1.3. Some prompts:
+Choose an anti-science claim from section 1.1 of your handout. Reflect on the worldviews of someone who might endorse your chosen anti-science claim. Write down these in section 1.3. Some prompts:
 
 1. Is this person likely to see the world in a particular way?
 2. Is this person likely to see knowledge in a particular way?
 3. To this person, could adherence to your chosen anti-science claim add good (or reduce bad) in the world?
-4. To this person, could opposition to your chosen anti-science claim add bad (or reduce good) in the world?
 :::
 
 ## The needs underpinning anti-science
