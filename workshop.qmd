@@ -55,12 +55,13 @@ execute:
 
 <!-- 
 To do 
-- Make up some worksheet?
-- Ideally, add grid of different d environmental examples @price2014
-- Maybe add Fabio's example
+- Add additional incremental flowcharts
 - Check references [in-text names, capitalisation at the eor]
+- Change language to "psych needs"
 - Write background
 - Write agenda
+
+- Make up some worksheet?
 
 - add good news everyone?
 - Add spiderman gif?
@@ -216,10 +217,10 @@ Some questions to reflect on:
 - Mental models can be inconsistent and incomplete
 ```{mermaid}
 %%| mermaid-format: svg
-%%| fig-width: 800px
+%%| fig-height: 600px
 flowchart TD
-  A(<font size=6><b>Claim</b>\nFacts, observations, or predictions)
-  B(<font size=6><b>Mental model</b>\nRepresentation of the system and its causes)
+  A(<p><b>Claim</b>\nFacts, observations, or predictions</p>)
+  B(<p><b>Mental model</b>\nRepresentation of the system and its causes</p>)
   A <---> B
 ```
 
@@ -237,8 +238,8 @@ flowchart TD
 %%| mermaid-format: svg
 %%| fig-width: 1300px
 flowchart TD
-  A("<font size=6><b>Claim</b>\n&ldquo;Scientists should stop falsely claiming that climate change is a settled science.&rdquo;")
-  B(<font size=6><b>Mental model</b>\nOnly some scientists are saying this. Listen to all - they are not all singing from the same hymn book)
+  A("<p><b>Claim</b>\n&ldquo;Scientists should stop falsely claiming that climate change is a settled science&rdquo;</p>")
+  B("<p><b>Mental model</b>\n&ldquo;Only some scientists are saying this. Listen to all - they are not all singing from the same hymn book&rdquo;</p>")
   A <---> B
 ```
 
@@ -263,25 +264,20 @@ flowchart TD
 
 ```{mermaid}
 %%| mermaid-format: svg
-%%| fig-width: 800px
+%%| fig-height: 700px
 flowchart TD
-  A(<font size=6><b>Claim</b>\nFacts, observations, or predictions)
-  B(<font size=6><b>Mental model</b>\nRepresentation of the system and its causes)
-  C(<font size=6><b>Worldview</b>\nFundamental understandings of the world)
+  A(<p><b>Claim</b>\nFacts, observations, or predictions</p>)
+  B(<p><b>Mental model</b>\nRepresentation of the system and its causes</p>)
+  C(<p><b>Worldview</b>\nFundamental understandings of the world</p>)
   C ---> A ---> C
   A <---> B <---> C
 ```
 
 . . .
 
-- We hold deep understandings about the nature of our world and ourselves
+- Fundamental understandings shape what we say (claim) and how we think (mental model)
 - Culturally transmitted understandings shaped by individual experience [@koltko-rivera_2004]
-- These fundamental understandings shape what we say (claim) and how we think (mental model)
 - E.g., What is knowledge? What is human nature? What is 'good' and 'bad'? What is an ideal world?
-
-## Worldviews
-
-gif of 40 worldviews by [@koltko-rivera_2004]
 
 ## The nature of truth
 
@@ -475,6 +471,7 @@ Reflect on someone who might endorse your chosen anti-science claim.
 ::: {.column width="45%"}
 ::: {.fragment fragment-index=1}
 **What we've discussed**
+
 1. Belief in anti-science claims may reflect deep understandings of the world
 2. Belief in anti-science claims may satisfy psychological motives
 :::
@@ -486,6 +483,7 @@ Reflect on someone who might endorse your chosen anti-science claim.
 ::: {.column width="45%"}
 ::: {.fragment fragment-index=2}
 **Implications for science communicators**
+
 1. Messages compatible with audience worldview are more likely to be accepted
 2. Messages that emphasise how science can satisfy psychological motives are more likely to be accepted
 :::
