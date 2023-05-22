@@ -63,15 +63,7 @@ To do
 - add good news everyone?
 - Add spiderman gif?
 
-- Upload to github pages somewhere
-- Add links in heading_meta via generate_meta.R
 - Add image of first slide
-- Host slides on website
-- Add link to slides on title page
-
-optional
-- programmatically make title slide
-- gif of worldviews
 -->
 
 ```{r preamble}
