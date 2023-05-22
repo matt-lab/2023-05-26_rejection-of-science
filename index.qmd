@@ -76,12 +76,22 @@ source("scripts/generate_meta.R")
 
 ## Public trust of science
 
+:::{.r-stack}
+
+::: {.fragment .center}
+Good news! Australians generally trust science
+
+::: {.fragment .fade-out}
+<img src="https://media.giphy.com/media/8qr5b7fs7JqxrvEOzH/giphy.gif" width="960" height="540"></img>
+:::
+:::
+
 ::: {.incremental}
-- Good news! Australians view science favourably
-- Generally, majority of Australians trust science and scientists [@tranter_2023;@3mstateofscience_2022]
+- Majority of Australians trust science and scientists [@tranter_2023;@3mstateofscience_2022]
 - Often, scientists are trusted more than other officials [@martin_2022;@pewresearchcenter_2022a;@3mstateofscience_2022]
 - Portion of the public are distrustful of science [@mede_2020]
 - Public may be vulnerable to misinformation about specific sciences [@rutjens_2021]
+:::
 :::
 
 ## Growing concerns
