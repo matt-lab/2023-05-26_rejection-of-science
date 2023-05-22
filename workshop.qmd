@@ -91,8 +91,8 @@ source("scripts/generate_meta.R")
 - Good news! Australians view science favourably
 - Generally, majority of Australians trust science and scientists [@tranter_2023;@3mstateofscience_2022]
 - Often, scientists are trusted more than other officials [@martin_2022;@pewresearchcenter_2022a;@3mstateofscience_2022]
-- Portion of the public are distrustful of science
-- Public may be vulnerable to misinformation about specific sciences
+- Portion of the public are distrustful of science [@mede_2020]
+- Public may be vulnerable to misinformation about specific sciences [@rutjens_2021]
 :::
 
 ## Growing concerns
@@ -141,7 +141,7 @@ Sign from Freedom Rally, Melbourne, 2021
 :::
 ::::
 :::  {.fragment fragment-index=5}
-- Despite their diversity, anti-science claims may be underpinned by the same psychology
+- Despite their diversity, anti-science claims may be underpinned by similar (but not identical) psychology [@rutjens_2021]
 :::
 
 
@@ -395,11 +395,23 @@ digraph  worldview_environment
 
 . . .
 
-- Scientific populism casts scientists and their methods as nefarious elite [@mede_2020;@mede_2022]
+- Science-related populism casts scientists and their methods as nefarious elite [@mede_2020;@mede_2022]
+- Do scientists have the right to declare what is known?
+- Do scientists have the right to make their own research agendas and curtail problematic fields?
+- Who should scientists be accountable to?
 
-## Stop and reflect
+## The truth underpinning anti-science
 
-<!-- chart -->
+```{mermaid}
+%%| mermaid-format: svg
+%%| fig-width: 1900px
+flowchart LR
+  A(<p><b>Claim</b>\nFacts, observations, or predictions</p>)
+  B(<p><b>Mental model</b>\nRepresentation of the system and its causes</p>)
+  C("<p><b>Worldviews</b>\nFundamental understandings of the world<ul><li>What is true (society, culture, environment)?</li><li>What is truth (how is it made, who makes it?)</li></ul></p>")
+  C ---> A ---> C
+  A <---> B <---> C
+```
 
 ::: {.callout-tip}
 ## Activity: The truth underpinning anti-science 
@@ -423,9 +435,18 @@ Reflect on your chosen anti-science claim.
   2. Self-transcendence (benevolence versus achievement and power)
 - Worldviews and ideologies are often imbued with sense of right versus wrong
 
-## Stop and reflect
+## The goodness underpinning anti-science
 
-<!-- -->
+```{mermaid}
+%%| mermaid-format: svg
+%%| fig-width: 1900px
+flowchart LR
+  A(<p><b>Claim</b>\nFacts, observations, or predictions</p>)
+  B(<p><b>Mental model</b>\nRepresentation of the system and its causes</p>)
+  C("<p><b>Worldviews</b>\nFundamental understandings of the world<ul><li>What is true about people, culture, & environment)?</li><li>What is truth, how is it made, & who makes it?)</li><li>What is good & how do we achieve it?</li></ul></p>")
+  C ---> A ---> C
+  A <---> B <---> C
+```
 
 ::: {.callout-tip}
 ## Activity: The goodness underpinning anti-science 
@@ -436,31 +457,54 @@ Reflect on someone who might endorse your chosen anti-science claim.
 2. To this person, could opposition to your chosen anti-science claim add bad (or reduce good) in the world?
 :::
 
-## The motives underpinning anti-science
+## The needs underpinning anti-science
 
-- Anti-science underpinned by psychological motives and tendencies [@douglas_2017; @hornsey_2020]
-- Psychological motives can shape the logic between layers
+- Adopting anti-science views can satisfy psychological needs [@douglas_2017; @hornsey_2020]
+- Psychological needs can shape the logic between layers
 
-- Epistemic motives
+- Epistemic needs
   * Need for cognitive consistency
-  * Uncertainty intolerance
+  * Uncertainty bias
   * Proportionality bias
 
 . . .
 
-- Material motives
-  * Vested interests
-
-. . .
-
-- Existential motives
-  * Phobias
+- Existential needs (e.g., phobias, protect way of life)
 
 . . . 
 
-- Social motives
+- Social needs
   * Personal identity expression (distinctiveness)
   * Social identity expression (internalise and exemplify attitudes and values of groups)
+
+  . . .
+
+- Material needs (e.g., vested interests)
+
+## The needs underpinning anti-science
+
+```{mermaid}
+%%| mermaid-format: svg
+%%| fig-height: 1000px
+flowchart LR
+  subgraph world["<b>Psychological World</b>"]
+    direction TB
+    A(<p><b>Claim</b>\nFacts, observations, or predictions</p>)
+    B(<p><b>Mental model</b>\nRepresentation of the system and its causes</p>)
+    C("<p><b>Worldviews</b>\nFundamental understandings of the world<ul><li>What is true about people, culture, & environment)?</li><li>What is truth, how is it made, & who makes it?)</li><li>What is good & how do we achieve it?</li></ul></p>")
+    C ---> A ---> C
+    A <---> B <---> C
+  end
+  subgraph needs["<b>Psychological Needs</b>"]
+    direction LR
+    D("<p><b>Epistemic</b>\nOur need to know</p>")
+    E("<p><b>Existential</b>\nOur need to exist</p>")
+    F("<p><b>Social</b>\nOur need to belong</p>")
+    G("<p><b>Material</b>\nOur need to own/consume</p>")
+  end
+  world <--> needs
+```
+
 
 # Shifting anti-science to science
 
@@ -473,7 +517,7 @@ Reflect on someone who might endorse your chosen anti-science claim.
 **What we've discussed**
 
 1. Belief in anti-science claims may reflect deep understandings of the world
-2. Belief in anti-science claims may satisfy psychological motives
+2. Belief in anti-science claims may satisfy psychological needs
 :::
 :::
 
@@ -485,7 +529,7 @@ Reflect on someone who might endorse your chosen anti-science claim.
 **Implications for science communicators**
 
 1. Messages compatible with audience worldview are more likely to be accepted
-2. Messages that emphasise how science can satisfy psychological motives are more likely to be accepted
+2. Messages that emphasise how science can satisfy psychological needs are more likely to be accepted
 :::
 :::
 ::::
@@ -563,10 +607,32 @@ Consider:
 
 ## The psychological roots of science (or anti-anti science)
 
-<!-- Flowchart? -->
+```{mermaid}
+%%| mermaid-format: svg
+%%| fig-height: 700px
+flowchart LR
+  subgraph world["<b>Psychological World</b>"]
+    direction TB
+    A(<p><b>Claim</b>\nFacts, observations, or predictions</p>)
+    B(<p><b>Mental model</b>\nRepresentation of the system and its causes</p>)
+    C("<p><b>Worldviews</b>\nFundamental understandings of the world<ul><li>What is true about people, culture, & environment)?</li><li>What is truth, how is it made, & who makes it?)</li><li>What is good & how do we achieve it?</li></ul></p>")
+    C ---> A ---> C
+    A <---> B <---> C
+  end
+  subgraph needs["<b>Psychological Needs</b>"]
+    direction LR
+    D("<p><b>Epistemic</b>\nOur need to know</p>")
+    E("<p><b>Existential</b>\nOur need to exist</p>")
+    F("<p><b>Social</b>\nOur need to belong</p>")
+    G("<p><b>Material</b>\nOur need to own/consume</p>")
+  end
+  world <--> needs
+```
 
 - Scientific claims follow the same structure, needs and assumptions may differ
 - E.g., epistemic needs and understandings drive scientists to explain observations
+
+## What about you?
 
 ::: {.callout-tip}
 ## Activity: Your psychological roots
@@ -588,9 +654,9 @@ Consider:
 
 - Scientists are often trusted authorities, giving us unique power to combat disinformation/misinformation
 - Anti-science (and science) belief can be underpinned by fundamental understandings and deep assumptions about the world
-- Fundamental understandings privilege some explanations over others to satisfy psychological motives
-- Psychological motives can also encourage belief change
-- Communication can be more effective when tailored to satisfy psychological motives and when messages are compatible with worldviews
+- Fundamental understandings privilege some explanations over others to satisfy psychological needs
+- Psychological needs can also encourage belief change
+- Communication can be more effective when tailored to satisfy psychological needs and when messages are compatible with worldviews
 
 ## Thank you
 
