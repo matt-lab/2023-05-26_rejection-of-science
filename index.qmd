@@ -357,14 +357,14 @@ digraph  worldview_environment
 
 ## Conspiracist worldviews
 
-> Powerful, malevolent groups coordinate in secret to conduct deceive the public
+> Powerful, malevolent groups coordinate in secret to deceive the public
 
 - Routinely related to antivaccination views [@lewandowsky2013a; @hornsey_2018]
 - Suspicion of 'unnatural' produce and technology, like genetically modified food, labgrown meat, and 5G safety [@lewandowsky2013a; @jolley_2020; @hornsey_2020]
-- Mixed evidence that conspiracist worldviews relate to climate change scepticisms [@andreotta_2022;@lewandowsky2020;@hornsey2018]
 
 . . .
 
+- Mixed evidence that conspiracist worldviews relate to climate change scepticisms [@andreotta_2022;@lewandowsky2020;@hornsey2018]
 - Climate change conspiracies are used to undermine scientific consensus [@lewandowsky2020;@andreotta_2022]
 - Two paths:
   1. Conspiracist worldview
