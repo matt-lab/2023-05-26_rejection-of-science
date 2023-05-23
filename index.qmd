@@ -53,19 +53,6 @@ execute:
 5. The psychological roots of science (or anti-anti-science)
 :::
 
-<!-- 
-To do 
-- Check references [capitalisation at the eor]
-- Write background
-- Write agenda
-
-
-- add good news everyone?
-- Add spiderman gif?
-
-- Add image of first slide
--->
-
 ```{r preamble}
 #| include: false
 source("scripts/generate_meta.R")
@@ -420,7 +407,7 @@ digraph  worldview_environment
 flowchart LR
   A(<p><b>Claim</b>\nFacts, observations, or predictions</p>)
   B(<p><b>Mental model</b>\nRepresentation of the system and its causes</p>)
-  C("<p><b>Worldviews</b>\nFundamental understandings of the world<ul><li>What is true about people, culture, & environment)?</li><li>What is truth, how is it made, & who makes it?)</li><li>What is good & how do we achieve it?</li><br/></ul></p>")
+  C("<p><b>Worldviews</b>\nFundamental understandings of the world<ul><li>What is true about people, culture, & environment?</li><li>What is truth, how is it made, & who makes it?</li><li>What is good & how do we achieve it?</li><br/></ul></p>")
   C ---> A ---> C
   A <---> B <---> C
 ```
@@ -470,7 +457,7 @@ flowchart LR
     direction TB
     A(<p><b>Claim</b>\nFacts, observations, or predictions</p>)
     B(<p><b>Mental model</b>\nRepresentation of the system and its causes</p>)
-    C("<p><b>Worldviews</b>\nFundamental understandings of the world<ul><li>What is true about people, culture, & environment)?</li><li>What is truth, how is it made, & who makes it?)</li><li>What is good & how do we achieve it?</li><br/></ul></p>")
+    C("<p><b>Worldviews</b>\nFundamental understandings of the world<ul><li>What is true about people, culture, & environment?</li><li>What is truth, how is it made, & who makes it?</li><li>What is good & how do we achieve it?</li><br/></ul></p>")
     C ---> A ---> C
     A <---> B <---> C
   end
