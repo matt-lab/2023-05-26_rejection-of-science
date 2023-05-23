@@ -36,7 +36,6 @@ execute:
 ::: {.incremental}
 - Who is this man? :wave:
 - Workshop materials :page_with_curl:	
-- Break :clock9:
 - By the end of today :heavy_check_mark:
 - Today's plan :clipboard:
 :::
@@ -266,7 +265,7 @@ flowchart TD
 - Culturally transmitted understandings shaped by individual experience [@koltko-rivera_2004]
 - E.g., What is human nature? What is knowledge? What is 'right' and 'wrong'? What is an ideal world?
 
-## The nature of truth
+## The nature of the world
 
 > Fundamental understandings of the world, society, and human nature
 
@@ -274,6 +273,7 @@ flowchart TD
 - Political ideology
 - Conspiracist worldviews
 - The nature of knowledge
+- The nature of goodness
 
 ## Cultural worldviews
 
@@ -392,8 +392,11 @@ digraph  worldview_environment
 > Fundamental understandings of what is right and wrong
 
 - Moral understanding (e.g., preventing harm) and justice
-- E.g., Vaccination 'rejectors' value sanctity and liberty more than others [@rossen_2019]
+- E.g., Vaccination 'rejectors' value purity and liberty more than others [@rossen_2019]
 - What is harm and who can be harmed? The environment? The economy? Future generations? Technological growth?
+
+. . .
+
 - Values [@schwartz2012]
   1. Openness to change (self-direction versus tradition and conformity)
   2. Self-transcendence (benevolence versus achievement and power)
