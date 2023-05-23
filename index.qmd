@@ -378,10 +378,10 @@ digraph  worldview_environment
 - Who are trusted sources of knowledge?
 - Scientists might disagree about particularly methods or statistics
 - Indigenous knowledge systems
-- Science can legitimise existing power structures, have vested interests, etc.
 
 . . .
 
+- Science can legitimise existing power structures, have vested interests, etc.
 - Science-related populism casts scientists and their methods as nefarious elite [@mede_2020;@mede_2022]
 - Do scientists have the right to declare what is known?
 - Do scientists have the right to make their own research agendas and curtail problematic fields?
@@ -429,7 +429,7 @@ Choose an anti-science claim from section 1.1 of your handout. Reflect on the wo
 
 - Epistemic needs
   * Need for cognitive consistency
-  * Uncertainty bias
+  * Uncertainty tolerance
   * Proportionality bias
 
 . . .
@@ -582,7 +582,7 @@ flowchart LR
     direction TB
     A(<p><b>Claim</b>\nFacts, observations, or predictions</p>)
     B(<p><b>Mental model</b>\nRepresentation of the system and its causes</p>)
-    C("<p><b>Worldviews</b>\nFundamental understandings of the world<ul><li>What is true about people, culture, & environment)?</li><li>What is truth, how is it made, & who makes it?)</li><li>What is good & how do we achieve it?</li></ul></p>")
+    C("<p><b>Worldviews</b>\nFundamental understandings of the world<ul><li>What is true about people, culture, & environment?</li><li>What is truth, how is it made, & who makes it?</li><li>What is good & how do we achieve it?</li></ul></p>")
     C ---> A ---> C
     A <---> B <---> C
   end
