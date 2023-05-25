@@ -411,13 +411,13 @@ digraph  worldview_environment
 
 - How can we know?
 - Who are trusted sources of knowledge?
-- Scientists might disagree about particularly methods or statistics
+- Scientists might disagree about particular methods or statistics
 - Indigenous knowledge systems
 
 . . .
 
 - Science can legitimise existing power structures, have vested interests, etc.
-- Science-related populism casts scientists and their methods as nefarious elite [@mede_2020;@mede_2022]
+- Science-related populism casts scientists as the nefarious elite [@mede_2020;@mede_2022]
 - Do scientists have the right to declare what is known?
 - Do scientists have the right to make their own research agendas and curtail problematic fields?
 - Who should scientists be accountable to?
