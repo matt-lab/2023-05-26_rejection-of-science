@@ -179,13 +179,13 @@ Sign from Freedom Rally, Melbourne, 2021
 ::: {.r-stack}
 ![](assets/coan_2021-1.PNG){.fragment width="1000" fig-align="center"}
 
-![](assets/coan_2021-2.PNG){.fragment width="1000" fig-align="center"}
+![](assets/coan_2021-2.png){.fragment width="1000" fig-align="center"}
 
-![](assets/coan_2021-3.PNG){.fragment width="1000" fig-align="center"}
+![](assets/coan_2021-3.png){.fragment width="1000" fig-align="center"}
 
-![](assets/coan_2021-4.PNG){.fragment width="1000" fig-align="center"}
+![](assets/coan_2021-4.png){.fragment width="1000" fig-align="center"}
 
-![](assets/coan_2021-5.PNG){.fragment width="1000" fig-align="center"}
+![](assets/coan_2021-5.png){.fragment width="1000" fig-align="center"}
 :::
 
 
