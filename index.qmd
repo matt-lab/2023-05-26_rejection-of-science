@@ -68,18 +68,39 @@ source("scripts/generate_meta.R")
 Good news! Australians generally trust science
 
 ::: {.fragment .fade-out}
-<img src="https://media.giphy.com/media/8qr5b7fs7JqxrvEOzH/giphy.gif" width="960" height="540"></img>
+![](https://media.giphy.com/media/8qr5b7fs7JqxrvEOzH/giphy.gif){.absolute bottom="300" left="470" height="540" width="960"}
+:::
 :::
 :::
 
-::: {.incremental}
+:::{.fragment .left}
 - Majority of Australians trust science and scientists [@tranter_2023;@3mstateofscience_2022]
-- ... but it depends on the science [@tranter_2023]
-![... but it depends on the science [@tranter_2023]](assets/tranter_2023.PNG){.absolute bottom="0" left="623" width="600"}
-- Often, scientists are trusted more than other officials [@martin_2022;@pewresearchcenter_2022a;@3mstateofscience_2022]
-- Portion of the public are distrustful of science [@mede_2020]
-- Public may be vulnerable to misinformation about specific sciences [@rutjens_2021]
 :::
+
+:::{.fragment}
+- ... but it depends on the science [@tranter_2023]
+:::
+
+:::{.r-stack}
+
+:::{.fragment}
+
+:::{.fragment .fade-out}
+![](assets/tranter_2023.PNG){.absolute bottom="0" left="400" width="1120"}
+:::
+:::
+:::
+
+:::{.fragment}
+- Often, scientists are trusted more than other officials [@martin_2022;@pewresearchcenter_2022a;@3mstateofscience_2022]
+:::
+
+:::{.fragment}
+- Portion of the public are distrustful of science [@mede_2020]
+:::
+
+:::{.fragment}
+- Public may be vulnerable to misinformation about specific sciences [@rutjens_2021]
 :::
 
 ## Growing concerns
